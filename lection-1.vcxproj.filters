@@ -21,6 +21,12 @@
     <ClCompile Include="Lection1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fibonacci-sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lection1.h">

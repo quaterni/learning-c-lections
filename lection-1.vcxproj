@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="calculator.cpp" />
+    <ClCompile Include="fibonacci-sequence.cpp" />
     <ClCompile Include="Lection1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
