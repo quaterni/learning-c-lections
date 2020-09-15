@@ -27,9 +27,12 @@
     <ClCompile Include="calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lection2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Lection1.h">
+    <ClInclude Include="Lections.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

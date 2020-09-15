@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "Lection1.h"
+#include "Lections.h"
 using namespace std;
 
 void lection1()

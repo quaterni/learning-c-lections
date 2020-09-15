@@ -22,10 +22,11 @@
     <ClCompile Include="calculator.cpp" />
     <ClCompile Include="fibonacci-sequence.cpp" />
     <ClCompile Include="Lection1.cpp" />
+    <ClCompile Include="Lection2.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Lection1.h" />
+    <ClInclude Include="Lections.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "Lection1.h"
+#include "Lections.h"
 
 const int countOfLections = 2;
 
@@ -14,7 +14,7 @@ void printLections(std::string lections[])
 void main() 
 {
 	setlocale(LC_ALL, "Rus");
-	std::string lections[countOfLections] =  { "Лекция 1: Типы данных", "Лекция 2: къек"};
+	std::string lections[countOfLections] =  { "Лекция 1: Типы данных", "Лекция 2: Указатели и константы"};
 
 	std::cout << "Доступные лекции:"<<std::endl;
 	printLections(lections);
@@ -24,14 +24,14 @@ void main()
 		std::cout << "Введите команду" << std::endl;
 		gets_s(command);
 		std::cout << std::endl << std::endl;
-		if (strcmp("lection1", command) == 0) {
+		if ( strcmp("lection 1", command) == 0) {
 
 			std::cout << lections[0] << std::endl;
 			setlocale(LC_ALL, "Eng");
 			lection1();
 		}
-		else if (strcmp("lection2", command) == 0) {
-			std::cout << "къек" << std::endl;
+		else if (strcmp("lection 2", command) == 0) {
+			lection2();
 		}
 		else if (strcmp("exit", command) == 0) {
 			break;
